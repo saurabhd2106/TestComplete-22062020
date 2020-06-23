@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{D6CFC3E5-EF07-4F0E-B72B-5610E361247D}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="" />
+	<testData />
+	<data />
+	<children>
+		<child key="{6B32CDA8-0B2F-4D4A-89AE-D6DE9499A6C7}">
+			<config nodeName="UnhandledWindowException" lastOpenedTLB="" generatedCLSID="{2CF3CE9E-3F54-4EAC-AE5A-75D1AD7FC070}" generatedTLBKey="{6FB23C42-42CD-438B-84D3-FA818378FEB8}" generatedEventsKey="{B20C2E60-0CEA-45EC-A797-C6635182494D}" generatedTLBDesc="TestComplete UnhandledWindowException Control - 24-06-2020 02:54:26">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743818" infoControlName="General Events" infoEventName="OnUnexpectedWindow" infoEventRealName="OnUnexpectedWindow" infoDescription="Occurs when an unexpected window appears." />
+				<handlerInfo handlerName="Exception_OnUnexpectedWindow" handlerMoniker="KDT\{1E9FEE8F-4A7C-4A54-818A-6FADA8D04C88}" handlerEventName="OnUnexpectedWindow" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743818" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{C6EFAC26-F906-4419-AEE8-4821853DBB88}" path="Unit1.svb" />
+		<child name="ScriptBasics" key="{E2154069-BAA7-405B-B7D1-390C670A5227}" path="ScriptBasics.svb" />
+		<child name="AddNewOrder" key="{B7FD6B88-C197-4BA7-807F-A8258E993E39}" path="AddNewOrder.svb" />
+		<child name="AddNewOrderViaDB" key="{C7D1E67B-85CF-47EC-8687-985CA7463F8D}" path="AddNewOrderViaDB.svb" />
+	</children>
+</Root>

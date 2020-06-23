@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{E274C9AF-6CB1-4227-AD18-A5072FB9357F}">
+	<children>
+		<child name="SampleDekstopApplication" key="{959D1137-4513-49ED-9AC3-C9646BF193A4}" path="LearningTestComplete-22062020\SampleDekstopApplication.mds" />
+		<child name="Guru99Application" key="{3F3DC3B5-B4D2-4E42-B01E-2245F2E5A3A9}" path="Guru99Application\Guru99Application.mds" />
+		<child name="Calculator" key="{61C93FDC-84A9-4DF0-90E6-FF713B1790B0}" path="Calculator\Calculator.mds" />
+		<child name="MSPaint" key="{E0BDBB30-4708-4541-9C82-6C66FB55EC4A}" path="MSPaint\MSPaint.mds" />
+		<child name="Calculator_WindowsForm" key="{49103813-DCAB-454E-B554-86D0C59A9ECD}" path="Calculator_WindowsForm\Calculator_WindowsForm.mds" />
+		<child name="SeleniumExecution" key="{00ACA4F3-6C5F-40FA-BE3D-5BDE4CC230A1}" path="SeleniumExecution\SeleniumExecution.mds" />
+		<child name="SoapUIExecution" key="{9006A14D-3C7C-40B4-8CA8-30A9A004E10D}" path="SoapUIExecution\SoapUIExecution.mds" />
+	</children>
+	<testItems key="{F5977254-C854-4183-9251-96290D18CC89}">
+		<children>
+			<testItem key="{959D1137-4513-49ED-9AC3-C9646BF193A4}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3F3DC3B5-B4D2-4E42-B01E-2245F2E5A3A9}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{61C93FDC-84A9-4DF0-90E6-FF713B1790B0}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{E0BDBB30-4708-4541-9C82-6C66FB55EC4A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{49103813-DCAB-454E-B554-86D0C59A9ECD}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{00ACA4F3-6C5F-40FA-BE3D-5BDE4CC230A1}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{9006A14D-3C7C-40B4-8CA8-30A9A004E10D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{6C8E10CB-9DC4-45BF-B277-4F574194AE94}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{697266AC-4BFC-4650-8493-1D8DFD124CD6}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

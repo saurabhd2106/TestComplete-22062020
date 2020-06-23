@@ -1,0 +1,47 @@
+﻿
+Sub BasicScriptingRoutine
+
+Dim name
+name = BasicScripting
+
+Log.Message(name)
+  
+End Sub
+
+Function BasicScripting
+
+  Dim firstNumber
+  
+  firstNumber = 10
+  
+  Log.Message("Data Type - " & TypeName(firstNumber))
+  
+  'firstNumber = "Saurabh"
+  
+    Log.Message("Data Type - " & TypeName(firstNumber))
+    
+    'This is a comment
+    
+    REM This is also a comment
+    
+    Dim secondNumber
+    
+    secondNumber = 5
+    
+    Dim result 
+    
+    result = firstNumber + secondNumber
+    
+    Log.Message(result)
+    
+    result = firstNumber - secondNumber
+    
+     Log.Message(result)
+    
+    result = firstNumber Mod secondNumber
+    
+     Log.Message(result)
+     
+     BasicScripting = "Saurabh"
+  
+End Function

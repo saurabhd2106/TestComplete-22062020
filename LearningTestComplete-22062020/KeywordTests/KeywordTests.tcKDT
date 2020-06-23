@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="AddNewOrder" key="{C15BFD15-915D-45AE-B4E6-A4E1366791C0}" path="AddNewOrder.tcKDTest" />
+		<child name="AddNewOrderManually" key="{114F7618-F1C8-45EC-B841-825048F9FEA3}" path="AddNewOrderManually.tcKDTest" />
+		<child name="AddNewOrderViaScript" key="{5361240E-4FEC-4792-9C8C-A51851538CAD}" path="AddNewOrderViaScript.tcKDTest" />
+		<child name="Test1" key="{225104E1-AE83-4175-9FA7-AA16C6D5E8B8}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{EAFB3992-D856-4C7C-BAEA-762B2FBA1C5A}" path="Test2.tcKDTest" />
+		<child name="VerifyDefaultScreen" key="{F1EF5FC6-8C05-4E30-A4F4-7886BF78A9BF}" path="VerifyDefaultScreen.tcKDTest" />
+		<child name="AddNewOrderViaDataTable" key="{B733B651-0CA1-448C-A1F2-3BDA38FE3583}" path="AddNewOrderViaDataTable.tcKDTest" />
+		<child name="AddNewOrderViaExcel" key="{BEA7AB1D-6158-4D5E-96CC-EBE73F017BE9}" path="AddNewOrderViaExcel.tcKDTest" />
+		<child name="AddNewOrderViaDatabase" key="{A77C1D42-B59C-45F9-B5C3-F72D70FC1C27}" path="AddNewOrderViaDatabase.tcKDTest" />
+	</children>
+</Root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="14.0">
+	<Table>
+		<Source Object="Aliases.Orders.MainForm.OrdersView" />
+		<Columns>
+			<Column IsKey="True">Customer Name</Column>
+			<Column IsKey="True">Product</Column>
+			<Column IsKey="True">Quantity</Column>
+			<Column IsKey="True">Date</Column>
+			<Column IsKey="True">Street</Column>
+			<Column IsKey="True">City</Column>
+			<Column IsKey="True">State</Column>
+			<Column IsKey="True">Zip</Column>
+			<Column IsKey="True">Card</Column>
+			<Column IsKey="True">Card No</Column>
+			<Column IsKey="True">Expiration Date</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Saurabh Dhingra</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">3</Cell>
+				<Cell Type="String">06-04-2020</Cell>
+				<Cell Type="String">12</Cell>
+				<Cell Type="String">Gurgaon</Cell>
+				<Cell Type="String">Haryana</Cell>
+				<Cell Type="String">122001</Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">24235762475683475734</Cell>
+				<Cell Type="String">06-04-2020</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Gaurav Dhingra</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">7</Cell>
+				<Cell Type="String">07-04-2020</Cell>
+				<Cell Type="String">12</Cell>
+				<Cell Type="String">Gurgaon</Cell>
+				<Cell Type="String">Haryana</Cell>
+				<Cell Type="String">122001</Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">24235762475683475734</Cell>
+				<Cell Type="String">06-04-2022</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Vaibhav Dhingra</Cell>
+				<Cell Type="String">ScreenSaver</Cell>
+				<Cell Type="String">9</Cell>
+				<Cell Type="String">06-04-2020</Cell>
+				<Cell Type="String">12</Cell>
+				<Cell Type="String">Gurgaon</Cell>
+				<Cell Type="String">Haryana</Cell>
+				<Cell Type="String">122001</Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">24235762475683475734</Cell>
+				<Cell Type="String">06-04-2022</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Vijay</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">2</Cell>
+				<Cell Type="String">11-04-2020</Cell>
+				<Cell Type="String">12</Cell>
+				<Cell Type="String">Gurgaon</Cell>
+				<Cell Type="String">Haryana</Cell>
+				<Cell Type="String">122001</Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">24235762475683475734</Cell>
+				<Cell Type="String">06-04-2021</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Saurabh Dhingra</Cell>
+				<Cell Type="String">FamilyAlbum</Cell>
+				<Cell Type="String">3</Cell>
+				<Cell Type="String">06-04-2020</Cell>
+				<Cell Type="String">12</Cell>
+				<Cell Type="String">Gurgaon</Cell>
+				<Cell Type="String">Haryana</Cell>
+				<Cell Type="String">122001</Cell>
+				<Cell Type="String">MasterCard</Cell>
+				<Cell Type="String">24235762475683475734</Cell>
+				<Cell Type="String">06-04-2022</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

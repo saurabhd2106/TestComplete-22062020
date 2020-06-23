@@ -1,0 +1,27 @@
+﻿
+Function VerifyLogin
+  
+  Call InvokeBrowser
+  Call LoginToApplication("mngr267149", "ypequha")
+  
+  
+End Function
+
+Function InvokeBrowser
+
+  Dim url
+  url = "http://demo.guru99.com/v4"
+  
+  Browsers.Item(btChrome).Navigate(url)
+
+End Function
+
+Function LoginToApplication(username, userPassword)
+  
+  Call Aliases.textboxUid.SetText(username)
+  
+  Call Aliases.passwordboxPassword.SetText(userPassword)
+  
+  Call Aliases.submitbuttonLogin.Click
+  
+End Function

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{D54F62F5-ED33-4182-A7DB-EE108FD7CDE9}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="AddOrder" Unit="Unit1" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{F2A66ACD-DAFA-41AE-9ABE-1907BB7C98E6}" />
+	<Parameters Key="{13C478EC-8F8C-4B02-B31D-41F04A4F4794}" />
+</Root>

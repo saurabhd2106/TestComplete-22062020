@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="14.0">
+	<children>
+		<child name="NewOrderDetail" key="{19D949EF-9B15-4EA2-BFC5-745EC51B649C}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="NewOrderDetail" ID="{19D949EF-9B15-4EA2-BFC5-745EC51B649C}" FileName="Files\MyTable20062214.tbl" Update="False" />
+		</child>
+		<child name="MyTable20062301_tbl" key="{93881CA9-5F06-4362-B5A5-9E68F58DF0CF}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="MyTable20062301_tbl" ID="{93881CA9-5F06-4362-B5A5-9E68F58DF0CF}" FileName="Files\MyTable20062301.tbl" Update="False" />
+		</child>
+	</children>
+</Root>

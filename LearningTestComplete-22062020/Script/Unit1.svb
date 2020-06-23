@@ -1,0 +1,81 @@
+﻿Sub AddOrder
+  
+  Dim orders
+  Dim orderForm
+  Dim groupBox
+  Dim textBox
+  
+  Set orders = Aliases.Orders
+  Call orders.MainForm.MainMenu.Click("Orders|New order...")
+  
+  Set orderForm = orders.OrderForm
+  Set groupBox = orderForm.Group
+  Call groupBox.ProductNames.ClickItem("FamilyAlbum")
+  groupBox.Quantity.wValue = 2
+  Set textBox = groupBox.Price
+ 
+  Call textBox.SetText("$100")
+  groupBox.Date.wDate = "2020-04-06"
+  Set textBox = groupBox.Customer
+ 
+  Call textBox.SetText("Saurabh Dhingra")
+  Set textBox = groupBox.Street
+  
+  Call textBox.SetText("12")
+  Set textBox = groupBox.City
+  
+  Call textBox.SetText("Gurgaon")
+  
+  Set textBox = groupBox.State
+  Call textBox.SetText("Haryana")
+ 
+  Call groupBox.Zip.SetText("122001")
+  Call groupBox.MasterCard.ClickButton
+  Set textBox = groupBox.CardNo
+
+  Call textBox.SetText("242315345")
+  groupBox.ExpDate.wDate = "2020-04-06"
+  Call orderForm.ButtonOK.ClickButton
+  
+End Sub
+
+Sub AddMoreOrder
+  
+  Dim orders
+  Dim orderForm
+  Dim groupBox
+  Dim textBox
+  
+  Set orders = Aliases.Orders
+  Call orders.MainForm.MainMenu.Click("Orders|New order...")
+  
+  Set orderForm = orders.OrderForm
+  Set groupBox = orderForm.Group
+  Call groupBox.ProductNames.ClickItem("FamilyAlbum")
+  groupBox.Quantity.wValue = 2
+  Set textBox = groupBox.Price
+ 
+  Call textBox.SetText("$100")
+  groupBox.Date.wDate = "2020-04-06"
+  Set textBox = groupBox.Customer
+ 
+  Call textBox.SetText("Saurabh Dhingra")
+  Set textBox = groupBox.Street
+  
+  Call textBox.SetText("12")
+  Set textBox = groupBox.City
+  
+  Call textBox.SetText("Gurgaon")
+  
+  Set textBox = groupBox.State
+  Call textBox.SetText("Haryana")
+ 
+  Call groupBox.Zip.SetText("122001")
+  Call groupBox.MasterCard.ClickButton
+  Set textBox = groupBox.CardNo
+
+  Call textBox.SetText("242315345")
+  groupBox.ExpDate.wDate = "2020-04-06"
+  Call orderForm.ButtonOK.ClickButton
+  
+End Sub

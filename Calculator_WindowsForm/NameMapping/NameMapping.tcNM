@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{21E2219C-8A02-4289-8C24-D70EFB88B5A5}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="WindowsFormsApp" Key="{AADB63D4-0F33-4D6F-8859-65D055DE2CC9}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="WindowsFormsApp" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Calculator" Key="{26F695C0-673C-411B-84CB-5E7CE638BE73}" ParallelWalk="True">
+								<Image FileName="-1138480179" Left="0" Top="0" Right="447" Bottom="333" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="Calculator" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="FirstNumber" Key="{465B589F-E22E-47A0-9CAB-076BDAD496A3}" ParallelWalk="True">
+										<Image FileName="-1138480179" Left="217" Top="91" Right="341" Bottom="111" />
+										<TypeInfo Item0="{6B2F5372-78E3-4845-B599-7D256BE244B2}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="FirstNumber" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="SecondNumber" Key="{ADFEA3D7-A75C-43F6-ABF6-DAD163647039}" ParallelWalk="True">
+										<Image FileName="1928032584" Left="217" Top="136" Right="341" Bottom="156" />
+										<TypeInfo Item0="{6B2F5372-78E3-4845-B599-7D256BE244B2}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="SecondNumber" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="submit_button" Key="{11E9519C-5BE3-4FA4-BB4C-D9795A4717FC}" ParallelWalk="True">
+										<Image FileName="1904296110" Left="245" Top="177" Right="313" Bottom="215" />
+										<TypeInfo Item0="{EDDF8A6D-643D-4164-A6EB-12D7FFC800FB}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="submit_button" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg" Key="{D44804D8-6546-4470-88FB-851BA285BCD4}" ParallelWalk="True">
+								<Image FileName="-1662898513" Left="0" Top="0" Right="204" Bottom="140" />
+								<TypeInfo Item0="{E678463D-D62C-44D8-9B05-6C9190CB21FB}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Static" Key="{F4604487-51A9-4186-BBAF-97D7526D0F0F}" ParallelWalk="True">
+										<Image FileName="-1662898513" Left="19" Top="54" Right="166" Bottom="69" />
+										<TypeInfo Item0="{64629A81-05EA-4D88-9B34-42EF8DF35BEB}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Static" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Attempted to divide by zero." Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{D100EF7E-336F-4BC3-B4AF-EEB0A95F1CE2}" ParallelWalk="True">
+										<Image FileName="-1018077599" Left="106" Top="99" Right="181" Bottom="122" />
+										<TypeInfo Item0="{61B47F7F-3E17-48AC-BB75-357C6FB3CFE1}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="WindowsFormsApp" Owner="{AADB63D4-0F33-4D6F-8859-65D055DE2CC9}">
+			<Child Name="Calculator" Owner="{26F695C0-673C-411B-84CB-5E7CE638BE73}">
+				<Child Name="FirstNumber" Owner="{465B589F-E22E-47A0-9CAB-076BDAD496A3}" />
+				<Child Name="SecondNumber" Owner="{ADFEA3D7-A75C-43F6-ABF6-DAD163647039}" />
+				<Child Name="submit_button" Owner="{11E9519C-5BE3-4FA4-BB4C-D9795A4717FC}" />
+			</Child>
+			<Child Name="dlg" Owner="{D44804D8-6546-4470-88FB-851BA285BCD4}">
+				<Child Name="Static" Owner="{F4604487-51A9-4186-BBAF-97D7526D0F0F}" />
+				<Child Name="btnOK" Owner="{D100EF7E-336F-4BC3-B4AF-EEB0A95F1CE2}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

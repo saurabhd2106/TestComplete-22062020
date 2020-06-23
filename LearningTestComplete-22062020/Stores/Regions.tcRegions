@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="DefaultToolBar" key="{E0934AFB-9F39-414A-B6A8-A33F61AB4420}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DefaultToolBar" ID="{E0934AFB-9F39-414A-B6A8-A33F61AB4420}" FileName="Regions\DefaultToolBar.png" Update="False" />
+		</child>
+		<child name="DefaultToolBar_Mask" key="{EAF41A32-68A6-4218-8E70-31EC36036668}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="DefaultToolBar_Mask" ID="{EAF41A32-68A6-4218-8E70-31EC36036668}" FileName="Regions\DefaultToolBar_Mask.png" Update="False" />
+		</child>
+		<child name="MainForm" key="{007C9F78-0FE3-4EA4-BC85-CF1E0252C45E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="MainForm" ID="{007C9F78-0FE3-4EA4-BC85-CF1E0252C45E}" FileName="Regions\MainForm.png" Update="False" />
+		</child>
+	</children>
+</Root>

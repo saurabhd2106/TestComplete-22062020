@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BBA47867-70F3-4F6B-8DEC-AB866684538D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44005.8871180556" objectName="Aliases.WindowsFormsApp.Calculator.FirstNumber" objectLeft="217" objectTop="91" objectRight="341" objectBottom="111" clickPointX="-1179" clickPointY="-545" imageFileName="tcvi29539300069843.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44005.8871412037" objectName="Aliases.WindowsFormsApp.Calculator.SecondNumber" objectLeft="217" objectTop="136" objectRight="341" objectBottom="156" clickPointX="-1179" clickPointY="-545" imageFileName="tcvi29539521869845.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44005.8871643519" objectName="Aliases.WindowsFormsApp.Calculator.submit_button" objectLeft="245" objectTop="177" objectRight="313" objectBottom="215" clickPointX="263" clickPointY="205" imageFileName="tcvi29539635969846.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

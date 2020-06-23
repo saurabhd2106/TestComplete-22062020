@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{B2285185-3C33-47B5-9E9A-BB15542E8385}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AddNewOrderManually">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="productName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="ScreenSaver" />
+						<Parameter Name="quantity" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="date" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="06/06/2020" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{4DDFA024-0C9F-4CD7-9CAB-BA0D710E119E}" />
+	<Parameters Key="{03890C82-B424-4C5E-92F2-D84938EAAFCA}" />
+</Root>

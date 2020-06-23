@@ -1,0 +1,50 @@
+﻿'USEUNIT AddNewOrder
+'USEUNIT ScriptBasics
+'USEUNIT Unit1
+
+Function VerifyAddOrderViaDB
+
+   InitializeOrdersApp
+  
+  Dim Driver
+  
+  Set Driver = DDT.ADODriver("Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=TestComplete;Data Source=.", "OrdersTestData")
+  
+  While Not Driver.EOF
+
+    Dim productName
+    productName = DDT.CurrentDriver.Value("productName")
+  
+    Dim quantity
+    quantity = DDT.CurrentDriver.Value("quantity")
+  
+    Dim customerName
+    customerName = DDT.CurrentDriver.Value("customerName")
+  
+    Dim orderDate
+    orderDate = DDT.CurrentDriver.Value("orderDate")
+    
+    Dim cardType
+    cardType = DDT.CurrentDriver.Value("cardType")
+    
+    Log.AppendFolder("Log Folder for Test Data " & productName)
+    
+
+    Call AddOrder(productName, customerName, quantity, orderDate, cardType)
+    
+    Log.PopLogFolder
+  
+    Driver.Next
+  Wend
+
+  DDT.CloseDriver(Driver.Name)
+  
+  DBTables.DBData.Check
+  
+End Function
+
+Function InitializeOrdersApp
+
+  Call TestedApps.Orders.Run
+  
+End Function

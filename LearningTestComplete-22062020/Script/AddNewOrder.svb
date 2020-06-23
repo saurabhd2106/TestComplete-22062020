@@ -1,0 +1,104 @@
+﻿
+Function VerifyAddOrder
+
+  InitializeOrdersApp
+  
+  Dim Driver
+  
+  Set Driver = DDT.ExcelDriver("C:\Users\Admin\Documents\TestComplete 14 Projects\Test Script\TestData\OrdersTestData.xlsx", "OrderData")
+  
+  While Not Driver.EOF
+
+    Dim productName
+    productName = DDT.CurrentDriver.Value("productName")
+  
+    Dim quantity
+    quantity = DDT.CurrentDriver.Value("quanity")
+  
+    Dim customerName
+    customerName = DDT.CurrentDriver.Value("customerName")
+  
+    Dim orderDate
+    orderDate = DDT.CurrentDriver.Value("OrderDate")
+    
+    Dim cardType
+    cardType = DDT.CurrentDriver.Value("cardType")
+    
+    Log.AppendFolder("Log Folder for Test Data " & productName)
+    
+  
+    Call AddOrder(productName, customerName, quantity, orderDate, cardType)
+    
+    Log.PopLogFolder
+  
+    Driver.Next
+  Wend
+
+  DDT.CloseDriver(Driver.Name)
+  
+  Call FileCheckpoint
+  
+End Function
+
+
+
+
+Function AddOrder(productName, customerName, quantity, orderDate, cardType)
+  
+  Dim mainWindow                        'Create an object which identifies main window form 
+  Set mainWindow = Aliases.Orders.MainForm
+  
+  Dim orderWindow
+  Set orderWindow = Aliases.Orders.OrderForm
+  
+  Dim groupInOrderWindow
+  Set groupInOrderWindow = orderWindow.Group
+  
+  
+  Call mainWindow.MainMenu.Click("Orders|New order...")
+  
+  Call groupInOrderWindow.ProductNames.ClickItem(productName)
+  
+  
+  groupInOrderWindow.Customer.SetText(customerName)
+  
+  groupInOrderWindow.Quantity.wValue = quantity
+  
+  groupInOrderWindow.Date.wDate = orderDate
+  
+  If cardType = "Visa" Then
+    
+    groupInOrderWindow.Visa.Click
+    
+    End If
+    
+    If cardType = "MasterCard" Then
+    
+    groupInOrderWindow.MasterCard.Click
+    
+    End If
+      
+    If cardType = "AmericanExpress" Then
+    
+    groupInOrderWindow.AE.Click
+    
+    End If
+  
+  Call orderWindow.ButtonOK.Click
+  
+End Function
+
+Function SaveFile
+  
+End Function
+
+Function FileCheckpoint
+  
+  Call Files.MyTable20062301_tbl.Check("C:\Users\Public\Documents\TestComplete 14 Samples\Desktop\Orders\C#\TCProjects\MyTable20062214.tbl")
+  
+End Function
+
+
+
+
+

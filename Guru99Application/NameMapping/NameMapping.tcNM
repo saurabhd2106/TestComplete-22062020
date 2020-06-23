@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{B0F4979C-F51A-4508-A45D-079552027B3F}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{277CC811-5357-4BB4-BB73-007D1F26A735}" ParallelWalk="True">
+						<TypeInfo Item0="{7B22F5AB-EC86-44EA-BE06-71BE69479E28}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageGuru99BankHomePage" Key="{50CE0A84-C331-4BC3-874D-457BB2DCD38C}" ParallelWalk="True">
+								<Image FileName="376372332" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{3EF0303C-5767-4F9C-A11F-EBBE2572120D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="http://demo.guru99.com/v4/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFrmlogin" Key="{5F73C9AD-5248-4BB2-9526-6CAF89CED51E}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="376372332" Left="8" Top="378" Right="1928" Bottom="486" />
+										<TypeInfo Item0="{14688EDC-C63D-4410-BEA2-69806B6E2151}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="frmLogin" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxUid" Key="{4AA24942-2588-4E06-A129-8A11175F3293}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="376372332" Left="756" Top="382" Right="985" Bottom="410" />
+												<TypeInfo Item0="{776DDF5F-C297-4020-BA11-976A03C660B5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Textbox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="uid" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxPassword" Key="{AD04D883-806A-48DE-A501-BC80F28FC789}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="376372332" Left="756" Top="418" Right="985" Bottom="446" />
+												<TypeInfo Item0="{776DDF5F-C297-4020-BA11-976A03C660B5}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="PasswordBox" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="password" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="submitbuttonLogin" Key="{0FB472B5-56B6-4311-A528-B317D6CB2EBB}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1669843580" Left="756" Top="454" Right="830" Bottom="482" />
+												<TypeInfo Item0="{2B601F1B-EF94-4D3A-B642-7D44C5FD5819}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="SubmitButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="btnLogin" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{277CC811-5357-4BB4-BB73-007D1F26A735}">
+			<Child Name="pageGuru99BankHomePage" Owner="{50CE0A84-C331-4BC3-874D-457BB2DCD38C}">
+				<Child Name="formFrmlogin" Owner="{5F73C9AD-5248-4BB2-9526-6CAF89CED51E}">
+					<Child Name="textboxUid" Owner="{4AA24942-2588-4E06-A129-8A11175F3293}" />
+					<Child Name="passwordboxPassword" Owner="{AD04D883-806A-48DE-A501-BC80F28FC789}" />
+					<Child Name="submitbuttonLogin" Owner="{0FB472B5-56B6-4311-A528-B317D6CB2EBB}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="textboxUid" Owner="{4AA24942-2588-4E06-A129-8A11175F3293}" />
+		<Child Name="submitbuttonLogin" Owner="{0FB472B5-56B6-4311-A528-B317D6CB2EBB}" />
+		<Child Name="passwordboxPassword" Owner="{AD04D883-806A-48DE-A501-BC80F28FC789}" />
+	</LogicalNodes>
+</Root>
